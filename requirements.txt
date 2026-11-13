@@ -1,0 +1,8 @@
+# George AI Control - Python 3.10+ on Windows
+# tkinter (for the GUI) comes with the python.org installer.
+
+pygame>=2.5      # game controllers: buttons, hats, axes
+pynput>=1.7      # keyboard bindings that work while DCS has focus
+
+# Only needed to build the stand-alone .exe files with build_exe.bat
+pyinstaller>=6.0
